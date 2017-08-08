@@ -4,47 +4,13 @@ permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
-## Getting started
+Oopsie exists to make it easy for you to create your ideas! Doesn't matter if you are gonna create a small application or if you want to push Big Data for later analyze, we  supply it for you!
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published in the webpage instantly.
+Do you really need:
+ - To code huge and complex backends? 
+ - A huge operation department to handle your server and scale with your business? 
+ - To get stuck in an architecture where you can't scale because your backend is not made for it?
 
-1. Just download the source from [github.com/aksakalli/jekyll-doc-theme](https://github.com/aksakalli/jekyll-doc-theme/master) into your repo under `docs` folder.
-2. Edit site settings in  `_config.yml` file according to your project.
-3. Replace `favicon.ico` and `img/logonav.png` with your own logo.
+ **NO, and why should you!**
 
-## Writing content
-
-### Docs
-
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
-
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
-
-```
----
-title: My Page
-permalink: /docs/my-page/
----
-
-Hello World!
-```
-
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
-
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
-
-### Blog posts
-
-Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
-
-### Pages
-
-The home page is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap componenets](http://getbootstrap.com/components/))
-
-In order to add a new page, create a new html or markdown file under root directory and link it in `_includes/topnav.html`.
+ In this homepage you will ( hopefully ) find everything you need to know to create and deploy sites with Oopsie. If anything is missing, please contact us or give us a pull-request to this documentations repository, that is created with [Jekyll](https://jekyllrb.com/).
